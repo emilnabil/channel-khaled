@@ -3,7 +3,7 @@
 # SCRIPT : DOWNLOAD AND INSTALL Channel
 # ###########################################
 #
-# Command: wget https://raw.githubusercontent.com/emilnabil/channel-hazem-wahba/main/installer.sh -qO - | /bin/sh
+# Command: wget https://raw.githubusercontent.com/emilnabil/channel-khaled/main/installer.sh -qO - | /bin/sh
 #
 # ###########################################
 
@@ -11,7 +11,7 @@
 # Configure where we can find things here #
 TMPDIR='/tmp'
 PACKAGE='astra-sm'
-MY_URL='https://raw.githubusercontent.com/emilnabil/channel-hazem-wahba/main'
+MY_URL='https://raw.githubusercontent.com/emilnabil/channel-khaled/main'
 
 ########################
 VERSION=$(wget $MY_URL/version -qO- | cut -d "=" -f2-)
